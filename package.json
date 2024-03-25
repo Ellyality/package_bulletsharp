@@ -1,0 +1,21 @@
+{
+	"name": "com.ellyality.simulation.bulletphysics",
+	"displayName":"Bullet Physics",
+	"version": "1.0.0",
+    "author": "Elly Simulation",
+    "unity": "2019.2",
+    "keywords": ["simulation", "physics", "bullet", "3D", "2D"],
+    "category": "engineering",
+    "license": "LICENSE",
+	"description": "Provide basic sign distance shader functions",
+    "documentationUrl": "https://github.com/Ellyality/package_bulletsharp/blob/main/README.md",
+    "samples":[
+        {
+            "displayName": "Demo Scene",
+            "description": "All the physics demo scene",
+            "path": "~Examples"
+        }
+    ],
+    "dependencies": {
+    }
+}

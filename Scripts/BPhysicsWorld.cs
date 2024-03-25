@@ -914,7 +914,7 @@ namespace BulletUnity
 
         public void OnPhysicsStep(CollisionWorld world)
         {
-            Dispatcher dispatcher = world.Dispatcher;
+            BulletSharp.Dispatcher dispatcher = world.Dispatcher;
             int numManifolds = dispatcher.NumManifolds;
             for (int i = 0; i < numManifolds; i++)
             {
